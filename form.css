@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+}
+
+.Termos {
+    text-align: center;
+    text-overflow: initial;
+    color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+}

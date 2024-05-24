@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
     <title>Cadastro</title>
 </head>
 <body>
-    <h1>Cadastre-se</h1>
-    <form action="Sucesso.html">
-        <label for="nome">Nome</label>
-        <input name="nome" type="text"/>
-    <br>
-    <br>
-        <label for="Email">Email</label>
-        <input name="'Email" type="text"/>
-    <br>
-    <br>
-        <label for="Senha">Senha</label>
-        <input name="Senha" type="password"/>
-    <br>    
-        <input type="submit"/>
-        <input type="reset"/>
-    </form>
+    <div class="formulario">
+        <h1>Cadastre-se</h1>
+        <form action="Sucesso.html">
+            <label class="name1" for="nome">Nome</label>
+            <input class="name" name="nome" type="text"/>
+        <br>
+        <br>
+            <label class="email1" for="Email">Email</label>
+            <input class="email" name="'Email" type="text"/>
+        <br>
+        <br>
+            <label class="senha1" for="Senha">Senha</label>
+            <input class="senha" name="Senha" type="password"/>
+        <br>
+        <br>
+            <input class="checkbox1" type="checkbox" checked/>
+            <label for="checkbox"/><a class="checkboxText" href="form.html">Concorda com os termos?</a>   
+        <br>   
+            <input class="enviar" type="submit"/>
+            <input class="redefinir" type="reset"/>
+    </div>        
+            
 </body>
 </html>
